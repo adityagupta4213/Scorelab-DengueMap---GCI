@@ -42,7 +42,7 @@ body{
 	background-color : #29A7FB;
 	color            : #fff;
 }
-.btn: active,.btn:focus{
+.btn:active,.btn:focus{
 	background-color : #147CC0;
 	color            : #fff;
 }
@@ -54,10 +54,10 @@ body{
 	margin           : 0.5rem;
 	background-color : #fce700;
 }
-.mark :hover{
+.mark:hover{
 	background-color : #fcee4d;
 }
-.mark: active,.mark:focus{
+.mark:active,.mark:focus{
 	background-color : #b9a609;
 }
 .unmark{
