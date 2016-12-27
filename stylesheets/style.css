@@ -1,0 +1,42 @@
+body{
+	margin:2rem;
+}
+.img-container{
+	text-align: center;
+}
+.part-image{
+	height: 30rem;
+}
+.file-list{
+	padding:1rem;
+}
+.files{
+	overflow:hidden; 
+	overflow-y:scroll;
+}
+.rt-panel{
+	padding:1rem;
+	border: 1px solid #000;
+}
+.btn{
+	margin:2rem;
+	padding:1rem;
+	padding-top:0.5rem;
+	padding-bottom:0.5rem;
+	background-color: #2199e8;
+	color: #fff;
+	border-radius: 5px;
+	transition: 0.3s ease;
+}
+.btn:hover{
+	background-color: #29A7FB;
+	color: #fff;
+}
+.btn:active,.btn:focus{
+	background-color: #147CC0;
+	color: #fff;
+}
+.bottom-controls{
+	margin:2.5rem;
+	text-align: center;
+}
