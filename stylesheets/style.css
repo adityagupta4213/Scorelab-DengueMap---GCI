@@ -1,80 +1,80 @@
 body{
-margin           : 2rem;
-font-family      : 'Century Gothic';
+	margin           : 2rem;
+	font-family      : 'Century Gothic';
 }
 .caption{
-font-style       : italic;
+	font-style       : italic;
 }
 .img-container{
-text-align       : center;
+	text-align       : center;
 }
 .part-image{
-height           : 30rem;
-border-radius    : 5px;
-transition       : 0.3s;
+	height           : 30rem;
+	border-radius    : 5px;
+	transition       : 0.3s;
 }
 .part-image:hover{	
-box-shadow       : 0 0 7px #222;
+	box-shadow       : 0 0 7px #222;
 }
 .file-list{
-padding          : 1rem;
+	padding          : 1rem;
 }
 .files{
-overflow         : hidden;
-overflow-y       : scroll;
+	overflow         : hidden;
+	overflow-y       : scroll;
 }
 .rt-panel{
-padding          : 1rem;
-border           : 1px solid #222;
-border-radius    : 5px;
+	padding          : 1rem;
+	border           : 1px solid #222;
+	border-radius    : 5px;
 }
 .btn{
-margin           : 2rem;
-padding          : 1rem;
-padding-top      : 0.5rem;
-padding-bottom   : 0.5rem;
-background-color : #2199e8;
-color            : #fff;
-border-radius    : 5px;
-transition       : 0.3s ease;
+	margin           : 2rem;
+	padding          : 1rem;
+	padding-top      : 0.5rem;
+	padding-bottom   : 0.5rem;
+	background-color : #2199e8;
+	color            : #fff;
+	border-radius    : 5px;
+	transition       : 0.3s ease;
 }
 .btn:hover{
-background-color : #29A7FB;
-color            : #fff;
+	background-color : #29A7FB;
+	color            : #fff;
 }
 .btn: active,.btn:focus{
-background-color : #147CC0;
-color            : #fff;
+	background-color : #147CC0;
+	color            : #fff;
 }
 .bottom-controls{
-margin           : 2.5rem;
-text-align       : center;
+	margin           : 2.5rem;
+	text-align       : center;
 }
 .mark{
-margin           : 0.5rem;
-background-color : #fce700;
+	margin           : 0.5rem;
+	background-color : #fce700;
 }
 .mark :hover{
-background-color : #fcee4d;
+	background-color : #fcee4d;
 }
 .mark: active,.mark:focus{
-background-color : #b9a609;
+	background-color : #b9a609;
 }
 .unmark{
-margin           : 0.5rem;
-background-color : #d3212a;
+	margin           : 0.5rem;
+	background-color : #d3212a;
 }
 .unmark:hover{
-background-color : #f42b35;
+	background-color : #f42b35;
 }
 .unmark:active,.unmark:focus{
-background-color : #ad1c24;
+	background-color : #ad1c24;
 }
 .fa-folder-open{
-	font-size:2rem;
-	color:#ffa200;
+	font-size 		 : 2rem;
+	color      		 : #ffa200;
 }
 .fa-picture-o{
-	padding:0.5rem;
-	color:#aaa;
+	padding          : 0.5rem;
+	color            : #aaa;
 }
