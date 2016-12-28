@@ -9,7 +9,7 @@
 <body>
 	<div class="row">
 		<div class="large-9 columns img-container">
-			<span class="caption">4<sup>th</sup> partition of DJI_001 from 26-12-2016</span>
+			<span class="caption">1<sup>st</sup> partition of DJI_001 from 26-12-2016</span>
 			<img class="part-image" src="res/img.png"/>
 		</div>
 		<div class="large-3 columns rt-panel">
@@ -26,7 +26,7 @@
 				<a class="btn mark" href="javascript:void(0)">Mark</a>
 				<a class="btn unmark" href="javascript:void(0)">Unmark</a>
 			<hr>
-				<img class="rt-panel-img" src="res/rt-panel.jpg"/>
+				<div id="drawGrid"></div>		<!--The right panel image with an overlay grid-->
 		</div>
 	</div>
 	<div class="row bottom-controls">
@@ -35,5 +35,7 @@
 		<a class="btn" href="javascript:void(0)">Next Partition</a>
 	</div>
 	<script src="https://use.fontawesome.com/933f3f7a65.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/drawGrid.js"></script>
 </body>
 </html>
